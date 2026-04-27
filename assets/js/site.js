@@ -12,6 +12,8 @@ let navne = [
   "Vitalii",
 ];
 
+console.log(navne[1]);
+
 function visNavn() {
     let index = document.getElementById("nameInput").value;
     let navn = navne [index];
